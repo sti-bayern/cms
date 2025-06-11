@@ -6,7 +6,7 @@ LABEL maintainer="Ayhan Akilli"
 # Setup
 #
 COPY . /app/
-COPY ./dist-upgrade /usr/local/bin/dist-upgrade
+COPY dist-upgrade /usr/local/bin/dist-upgrade
 
 #
 # Onbuild
