@@ -6,4 +6,4 @@ docker-compose.*
 Dockerfile
 .dockerignore
 Jenkinsfile
-dist-upgrade
+# dist-upgrade
