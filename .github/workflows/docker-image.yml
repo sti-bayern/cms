@@ -41,5 +41,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ github.head_ref || github.ref_name }}
+          tags: adbv/krompi-cms:${{ github.head_ref || github.ref_name }}
           labels: ${{ steps.meta.outputs.labels }}
